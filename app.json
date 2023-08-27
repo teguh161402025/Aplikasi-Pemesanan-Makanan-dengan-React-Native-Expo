@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "rini",
+    "name": "PesanMakan",
     "slug": "rini",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,16 +18,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.felllatte.aplikasipesanmakan"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.felllatte.aplikasipesanmakan"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "064c9a20-b34e-4a27-bb16-b4ede890a55a"
+      }
     }
   }
 }
